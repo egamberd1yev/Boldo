@@ -1,0 +1,37 @@
+.burger-menu {
+  margin-top: 30px;
+  cursor: pointer;
+  span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: darkolivegreen;
+    border-radius: 10px;
+
+
+    &:nth-child(2) {
+      margin: 3px 0;
+    }
+  }
+}
+
+.menu {
+  width: 190px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.574);
+  color: red;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 0 50px rgba(89, 82, 82, 0);
+  transform: scale(0);
+}
+
+.menu--active {
+  transform: scale(0.9);
+  transition: all 0.2s linear;
+}
+
+.burger-link {
+  color: orange;
+}
