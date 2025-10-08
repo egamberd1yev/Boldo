@@ -5,45 +5,15 @@ import './index.css'
 
 
 const Navbar = () => {
-  const burgerRef = useRef(null)
-  const wrapperRef = useRef(null)
-
-  useEffect(() => {
-    const burger = burgerRef.current
-    const wrapper = wrapperRef.current
-    if (!burger || !wrapper) return
-
-
-    const handleClick = () => {
-      wrapper.classList.toggle('wrapper--active')
-    }
-
-
-    const handleKeyDown = (evt) => {
-      if (evt.key === 'Escape') {
-        wrapper.classList.remove('wrapper--active')
-      }
-    }
-
-    burger.addEventListener('click', handleClick)
-    window.addEventListener('keydown', handleKeyDown)
-
-    // Tozalash (unmount yoki dependency o'zgarganda)
-    return () => {
-      burger.removeEventListener('click', handleClick)
-      window.removeEventListener('keydown', handleKeyDown)
-    }
-  }, [])
-
   return (
-    <nav style={{ backgroundColor: '#FFFFFF', height: '100vh'}}>
-      <Container maxW="container.xl">
+    <nav style={{ backgroundColor: '#FFFFFF', height: '10vh'}}>
+      <Container>
         <Box display="flex" justifyContent="space-between" alignItems="center" py={4}>
           <Box>
             <img src="src/assets/Logo.svg" alt="Logo" style={{ height: 36 }} />
           </Box>
 
-          <div className='wrapper' style={{ display: 'flex', alignItems: 'center', gap: '20px' }} ref={wrapperRef}>
+          <div className='wrapper' style={{ display: 'flex', alignItems: 'center', gap: '20px' }} >
             <ul style={{ display: 'flex', color: '#0A2640', fontWeight: 600, gap: '10px', listStyle: 'none', margin: 0, padding: 0, cursor: 'pointer', }}>
               <li><a href="#product">Product</a></li>
               <li><a href="#services">Services</a></li>
@@ -62,7 +32,6 @@ const Navbar = () => {
           </div>
 
           <MdOutlineMenu 
-            ref={burgerRef}
             aria-label="Open menu"
             display={{ base: 'inline-flex', md: 'none' }}
             style={{width: '30px', display: 'none'}}
