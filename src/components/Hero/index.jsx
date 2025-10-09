@@ -3,7 +3,7 @@ import { Container, Box, Button, Text } from '@chakra-ui/react'
 
 const Hero = () => {
   return (
-    <section style={{ backgroundColor: 'white', height: '100vh' }}>
+    <section style={{ backgroundColor: 'white', height: '70vh' }}>
       <Container>
         <Box display='flex' justifyContent='space-between' alignItems='center' flexDirection={{ base: 'column', md: 'initial' }}>
           <div>
@@ -16,7 +16,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <img src="src/assets/HeroGraphics.jpg" alt="" />
+          <img width='30%' src="src/assets/HeroGraphics.jpg" alt="" />
         </Box>
 
         <Box display={{base: 'none', md: 'flex'}} justifyContent='space-between' margin='10px 0' overflow='visible' padding='10px' gap='20px' >

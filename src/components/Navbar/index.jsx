@@ -1,6 +1,4 @@
-import React, { useEffect, useRef } from 'react'
 import { Container, Box, Button, IconButton } from '@chakra-ui/react'
-import { MdOutlineMenu } from "react-icons/md";
 import './index.css'
 
 
@@ -31,15 +29,6 @@ const Navbar = () => {
             </Button>
           </div>
 
-          <MdOutlineMenu 
-            aria-label="Open menu"
-            display={{ base: 'inline-flex', md: 'none' }}
-            style={{width: '30px', display: 'none'}}
-            variant="plain"
-            size="md"
-            type="button"
-            color='#0A2640'
-          />
         </Box>
       </Container>
     </nav>
