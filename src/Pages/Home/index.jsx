@@ -4,7 +4,7 @@ import Hero from '../../components/Hero'
 import Services from '../../components/Services'
 import Customers from '../../components/customers'
 import Connect from '../../components/connect'
-
+import Testmissional from '../../components/testmissional'
 const Home = () => {
   return (
     <>
@@ -13,6 +13,7 @@ const Home = () => {
     <Services></Services>
     <Customers></Customers>
     <Connect></Connect>
+    <Testmissional></Testmissional>
     </>
   )
 }
