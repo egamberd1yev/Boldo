@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <section style={{ backgroundColor: '#0A2640',}} height={{base: '180vh', lg: '110vh', md: '200vh'}} >
+    <section style={{ backgroundColor: '#0A2640',}} height={{base: '180vh', lg: '120vh', md: '200vh'}} >
       <Container>
         <Text fontSize={{ base: '14px', md: '20px' }} textAlign='center' color='#F1F1F1' lineHeight='100px'>Our services</Text>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -12,7 +12,7 @@ const Services = () => {
         </div>
 
  
-        <Box display='flex' justifyContent={{base: 'center', lg: 'space-between'}} gap='20px' margin='20px 0' flexWrap='wrap'> 
+        <Box display='flex' justifyContent={{base: 'center', lg: 'space-between'}} gap='20px' padding='20px 0' flexWrap='wrap'> 
           <div>
             <img src="src/assets/cool-img.png" alt="" />
 
