@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Box, Text } from '@chakra-ui/react'
+import { Container, Box, Text, Button } from '@chakra-ui/react'
 import { FaCircleCheck } from "react-icons/fa6";
 
 const customers = () => {
@@ -15,6 +15,7 @@ const customers = () => {
             <p style={{color: '#000000', display: 'flex', alignItems: 'center', gap: '20px'}}><FaCircleCheck /> We connect our customers with the best.</p>
             <p style={{color: '#000000', display: 'flex', alignItems: 'center', gap: '20px'}}><FaCircleCheck /> Advisor success customer launch party.</p>
             <p style={{color: '#000000', display: 'flex', alignItems: 'center', gap: '20px'}}><FaCircleCheck /> Business-to-consumer long tail.</p>
+            <Button variant='plain' backgroundColor='#0A2640' margin='30px 0' width='140px' borderRadius='20px'>Start now</Button>
           </div>
         </Box>
       </Container>
