@@ -5,6 +5,8 @@ import Services from '../../components/Services'
 import Customers from '../../components/customers'
 import Connect from '../../components/connect'
 import Testmissional from '../../components/testmissional'
+import Work from '../../components/Work'
+
 const Home = () => {
   return (
     <>
@@ -14,6 +16,8 @@ const Home = () => {
     <Customers></Customers>
     <Connect></Connect>
     <Testmissional></Testmissional>
+    <Work></Work>
+
     </>
   )
 }
