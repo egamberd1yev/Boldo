@@ -3,11 +3,11 @@ import React from 'react'
 
 const testmissional = () => {
   return (
-    <section style={{ backgroundColor: '#0A2640', height: '90vh', padding: '20px 0' }}>
+    <section style={{ backgroundColor: '#0A2640',  padding: '20px 0' }} height={{base: '150vh', lg: '90vh'}}>
       <Container>
-        <Heading style={{ maxWidth: '700px', lineHeight: '50px' }} fontSize={{ base: '32px', lg: '48px' }}>An enterprise template to ramp up your company website</Heading>
+        <Heading style={{ maxWidth: '700px', lineHeight: '50px' }} textAlign={{base: 'center', lg: 'left'}} fontSize={{ base: '32px', lg: '48px' }}>An enterprise template to ramp up your company website</Heading>
 
-        <Box display='flex' justifyContent='space-between' margin='20px 0'>
+        <Box display='flex' justifyContent={{base: 'center', lg: 'space-between'}} gap='20px' alignItems='center' margin='20px 0' flexWrap='wrap'>
           
           <div style={{ width: '260px', height: '270px', backgroundColor: 'white', borderRadius: '10px', margin: '20px 0', padding: '20px' }}>
             <Text color='#000000' fontSize='20px'>“Buyer buzz partner network disruptive non-disclosure agreement business”</Text>
