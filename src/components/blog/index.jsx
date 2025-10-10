@@ -15,7 +15,7 @@ const blog = () => {
 
         <Box display='flex' justifyContent='space-between' margin='30px 0' flexWrap='wrap'>
 
-          <div style={{ width: '240px', height: '330px', padding: '0 10px' }}>
+          <div style={{ width: '240px', height: '330px', padding: '0 10px', margin: '50px 0' }}>
             <img width='100%' src="src/assets/category.jpg" alt="" />
 
             <div style={{ display: 'flex', alignItems: 'center', gap: "10px", margin: '10px 0' }}>
@@ -51,7 +51,7 @@ const blog = () => {
               Rachel Green</Text>
           </div>
 
-          <div style={{ width: '240px', height: '330px', padding: '0 10px' }}>
+          <div style={{ width: '240px', height: '330px', padding: '0 10px', margin: '50px 0'}}>
             <img width='100%' src="src/assets/category2.jpg" alt="" />
 
             <div style={{ display: 'flex', alignItems: 'center', gap: "10px", margin: '10px 0' }}>

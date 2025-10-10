@@ -7,6 +7,8 @@ import Connect from '../../components/connect'
 import Testmissional from '../../components/testmissional'
 import Work from '../../components/Work'
 import Blog from '../../components/blog'
+import Email from '../../components/email'
+
 
 const Home = () => {
   return (
@@ -19,6 +21,7 @@ const Home = () => {
       <Testmissional></Testmissional>
       <Work></Work>
       <Blog></Blog>
+      <Email></Email>
     </>
   )
 }
