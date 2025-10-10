@@ -1,5 +1,6 @@
 import { Container, Box, Button, IconButton } from '@chakra-ui/react'
 import './index.css'
+import { NavLink } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -13,9 +14,9 @@ const Navbar = () => {
 
           <div className='wrapper' style={{ display: 'flex', alignItems: 'center', gap: '20px' }} >
             <ul style={{ display: 'flex', color: '#0A2640', fontWeight: 600, gap: '10px', listStyle: 'none', margin: 0, padding: 0, cursor: 'pointer', }}>
-              <li><a href="#product">Product</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#about">About</a></li>
+              <li><NavLink to='/'>Product</NavLink></li>
+              <li><NavLink to='/'>Services</NavLink></li>
+              <li><NavLink to='/about'>About</NavLink></li>
             </ul>
 
             <Button
