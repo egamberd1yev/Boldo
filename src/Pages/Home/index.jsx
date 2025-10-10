@@ -6,20 +6,21 @@ import Customers from '../../components/customers'
 import Connect from '../../components/connect'
 import Testmissional from '../../components/testmissional'
 import Work from '../../components/Work'
+import Blog from '../../components/blog'
 
 const Home = () => {
   return (
     <>
-    <Navbar></Navbar>
-    <Hero></Hero>
-    <Services></Services>
-    <Customers></Customers>
-    <Connect></Connect>
-    <Testmissional></Testmissional>
-    <Work></Work>
-
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <Services></Services>
+      <Customers></Customers>
+      <Connect></Connect>
+      <Testmissional></Testmissional>
+      <Work></Work>
+      <Blog></Blog>
     </>
   )
 }
 
-export default Home
+export default Home   
