@@ -8,6 +8,7 @@ import Testmissional from '../../components/testmissional'
 import Work from '../../components/Work'
 import Blog from '../../components/blog'
 import Email from '../../components/email'
+import Footer from '../../components/footer'
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Work></Work>
       <Blog></Blog>
       <Email></Email>
+      <Footer></Footer>
     </>
   )
 }
