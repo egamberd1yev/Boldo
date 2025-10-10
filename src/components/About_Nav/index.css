@@ -1,0 +1,36 @@
+.wrapper {
+
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 120px;
+    height: 210px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    right: 16px;
+    background: #0A2640;
+    padding: 12px;
+    border-radius: 8px;
+    z-index: 1;
+    
+    ul {
+      flex-direction: column;
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+
+    button {
+      width: 100px;
+    }
+
+  }
+  .wrapper.wrapper--active {
+    display: block;
+  }
+}
