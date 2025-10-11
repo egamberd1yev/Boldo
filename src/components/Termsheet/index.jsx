@@ -3,7 +3,7 @@ import React from 'react'
 
 const Termsheet = () => {
   return (
-    <section style={{ backgroundColor: '#FFFFFF', height: '100vh' }}>
+    <Box style={{ backgroundColor: '#FFFFFF',}} height={{base: '190vh', md: '100vh'}}>
       <Container>
         <Text fontWeight='400' fontSize='20px' color='#0A2640' textAlign='center'>Blog</Text>
         <Heading fontWeight='400' fontSize='64px' color='#0A2640' textAlign='center' lineHeight={{base: '70px', md: '20px'}}>Thoughts and words</Heading>
@@ -30,7 +30,7 @@ const Termsheet = () => {
           </div>
         </Box>
       </Container>
-    </section>
+    </Box>
   )
 }
 
