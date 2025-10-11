@@ -4,6 +4,7 @@ import About_Hero from '../../components/About_Hero'
 import Numbers from '../../components/Numbers'
 import Story from '../../components/Story'
 import Team from '../../components/Team'
+import About_Blog from '../../components/About_Blog'
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
       <Numbers />
       <Story />
       <Team></Team>
+      <About_Blog />
     </>
   )
 }

@@ -37,7 +37,7 @@ const Team = () => {
           </div>
         </Box>
 
-        <Box display='flex' justifyContent='space-between' gap='150px' padding='20px 0'>
+        <Box display='flex' justifyContent={{base: 'center', lg: 'space-between'}} gap='150px' padding={{base: '0px', lg: '20px 0'}}  flexWrap='wrap'>
           <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
             <img src="src/assets/dwight.png" alt="" />
 
@@ -57,7 +57,7 @@ const Team = () => {
           </div>
         </Box>
 
-        <Box display='flex' justifyContent='space-between' gap='150px' padding='20px 0'>
+        <Box display='flex' justifyContent={{base: 'center', lg: 'space-between'}} gap='150px' padding={{base: '5px 0', lg: '20px 0'}} flexWrap='wrap'>
           <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
             <img src="src/assets/pam.png" alt="" />
 
