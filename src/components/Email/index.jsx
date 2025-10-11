@@ -5,7 +5,7 @@ const Email = () => {
   return (
     <section style={{ backgroundColor: '#FFFFFF' }}>
       <Container>
-        <Box backgroundColor='#0A2640' height='50vh' borderRadius='10px' padding='40px 0'>
+        <Box backgroundColor='#0A2640' height='50vh' borderRadius='10px' padding='40px 0' margin='30px 0'>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <Heading fontWeight='400' fontSize={{base: '20px', sm: '48px'}} textAlign='center' maxWidth='680px' lineHeight='50px'>An enterprise template to ramp up your company website</Heading>
           </div>

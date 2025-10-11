@@ -3,7 +3,7 @@ import React from 'react'
 
 const Team = () => {
   return (
-    <section style={{ backgroundColor: '#FFFFFF', }} height={{ base: '150vh', md: '100vh' }}>
+    <section style={{ backgroundColor: '#FFFFFF'}} height={{ base: '150vh', md: '100vh' }}>
       <Container>
         <Box padding='90px 50px'>
           <Text fontWeight='400' fontSize='20px' color='#777777'>Our team</Text>
