@@ -22,7 +22,7 @@ const Numbers = () => {
             <Text fontWeight='400' fontSize='24px' color='#0A2640'>Cool feature title</Text>
           </div>
 
-          <div>
+          <div style={{marginBottom: '100px 0'}}>
             <Text fontWeight='400' fontSize='96px' color='#0A2640'>240</Text>
             <Text fontWeight='400' fontSize='24px' color='#0A2640'>Cool feature title</Text>
           </div>
