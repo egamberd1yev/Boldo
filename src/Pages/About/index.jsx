@@ -6,7 +6,7 @@ import Story from '../../components/Story'
 import Team from '../../components/Team'
 import About_Blog from '../../components/About_Blog'
 import Email from '../../components/Email'
-import Footer from '../../components/Footer'
+import Footer from '../../components/Footer/'
 
 const About = () => {
   return (

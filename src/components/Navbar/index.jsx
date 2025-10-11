@@ -14,9 +14,9 @@ const Navbar = () => {
 
           <div className='wrapper' style={{ display: 'flex', alignItems: 'center', gap: '20px' }} >
             <ul style={{ display: 'flex', color: '#0A2640', fontWeight: 600, gap: '10px', listStyle: 'none', margin: 0, padding: 0, cursor: 'pointer', }}>
-              <li><NavLink to='/'>Product</NavLink></li>
-              <li><NavLink to='/'>Services</NavLink></li>
+              <li><NavLink to='/'>Home</NavLink></li>
               <li><NavLink to='/about'>About</NavLink></li>
+              <li><NavLink to='/blog'>Blog</NavLink></li>
             </ul>
 
             <Button
