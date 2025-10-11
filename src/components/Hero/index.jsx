@@ -25,6 +25,8 @@ const Hero = () => {
           <img src="src/assets/Logo.svg" alt="" />
           <img src="src/assets/presto.svg" alt="" />        
         </Box>
+
+        
       </Container>
     </section>
   )
